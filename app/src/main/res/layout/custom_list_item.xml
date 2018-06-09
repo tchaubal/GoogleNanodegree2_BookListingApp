@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/column_width"
+    android:paddingRight="@dimen/column_width"
+    android:paddingTop="@dimen/column_width">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/column_space"
+        android:layout_marginEnd="@dimen/column_space"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/title"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            tools:text="Harry Potter and the Goblet of Fire" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/column_space"
+        android:layout_marginStart="@dimen/column_space"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/authors_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/authors"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            tools:text="author1" />
+
+        <TextView
+            android:id="@+id/authors_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/authors"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            tools:text="author2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/column_space"
+        android:layout_marginStart="@dimen/column_space"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="@color/pageCount"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size"
+            tools:text="Page Count" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/column_space"
+            android:layout_marginStart="@dimen/column_space"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/language"
+            android:fontFamily="sans-serif-medium"
+            android:ellipsize="end"
+            android:textAllCaps="true"
+            android:maxLines="2"
+            android:textSize="@dimen/text_size"
+            tools:text="language" />
+        </LinearLayout>
+
+</LinearLayout>
+

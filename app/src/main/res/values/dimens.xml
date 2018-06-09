@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size">16sp</dimen>
+    <dimen name="columns_list">30dp</dimen>
+    <dimen name="column_names">15sp</dimen>
+    <dimen name="column_width">25dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="text_size_error_message">20sp</dimen>
+    <dimen name="column_space">16dp</dimen>
+    <dimen name="margin">10dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b4362f</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title">#2b2e99</color>
+    <color name="authors">#a62961</color>
+    <color name="pageCount">#1c5437</color>
+    <color name="language">#c17613</color>
+    <color name="list_background">#ece6e8</color>
+    <color name="edittext_background">#f9ed90</color>
+    <color name="noInternet">#979796</color>
+
+
+</resources>
